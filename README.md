@@ -4,7 +4,7 @@ This is a simple Weather App built with TypeScript. It uses OpenWeatherData for 
 
 ## See the website live
 
-The website is deployed at [https://eole-weather.netlify.app/](https://eole-weather.netlify.app/). :earth_africa: :sun_behind_rain_cloud:
+The website is deployed at [https://eole-weather.netlify.app/](https://5eab0084fcf6e1024d2baa92--eole-weather.netlify.app/). :earth_africa: :sun_behind_rain_cloud:
 
 ## Getting started
 
