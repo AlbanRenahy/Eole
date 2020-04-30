@@ -1,6 +1,8 @@
 import React, { useState, useContext } from "react";
 import WeatherContext from "./weatherContext";
 
+const video = require("../src/images/video.mov");
+
 /* TODO: 
  - Move api to other component
  - Split up into components
@@ -54,12 +56,16 @@ const App = () => {
   };
 
   return (
-    <div
-      className={`app ${
-        weather.temperature && weather.temperature > 16 ? "warm" : "cold"
-      }`}
-    >
+    <div>
       <main>
+      <div className="video-container">
+        <video
+          src={video}
+          autoPlay
+          muted
+          loop
+        ></video>
+      </div>
         <div className="search-box">
           <input
             type="text"
