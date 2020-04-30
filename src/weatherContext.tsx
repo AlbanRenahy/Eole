@@ -60,7 +60,7 @@ const WeatherProvider: React.FC<Props> = ({ children }) => {
 		fetch(`${api.baseUrl}/weather?q=${query}&units=metric&appid=${api.key}`)
 			.then((res) => res.json())
 			.then((res) => {
-                console.log(res);
+                // console.log(res);
 				if (+res.cod >= 400) {
 					setWeather(initialWeather);
 					setError(mapErrorCodeToMessage(+res.cod));
