@@ -1,5 +1,4 @@
-import React, { useState, useContext } from "react";
-import WeatherContext from "./weatherContext";
+import React from "react";
 
 import Background from "./components/Background";
 import SearchBox from "./components/Searchbox";

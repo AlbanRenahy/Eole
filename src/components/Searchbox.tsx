@@ -7,9 +7,13 @@ import WeatherContext from "../weatherContext";
 
    const handleKeyPress: (e: React.KeyboardEvent) => void = (e) => {
     if (e.key === "Enter") {
-      search(query);
-      setQuery("");
+      submit();
     }
+  };
+
+  const submit: () => void = () => {
+    search(query);
+    setQuery("");
   };
 
    return (
@@ -22,6 +26,7 @@ import WeatherContext from "../weatherContext";
         value={query}
         onKeyPress={handleKeyPress}
       />
+      <button onClick={submit}>Go!</button>
     </div>
   );
 };

@@ -27,7 +27,7 @@ import WeatherContext from "../weatherContext";
         // TODO: Style this
         <div className="welcome-message">
           <h2>Welcome!</h2>
-          <p>Type your query to get the weather from anywhere!</p>
+          <p>Submit a location to get the weather from anywhere!</p>
         </div>
       )}
     </>
