@@ -33,7 +33,7 @@ const WeatherContext = createContext<ContextValue>({
 });
 
 const api = {
-	key: process.env.REACT_APP_API_KEY,
+	key: "d0a488be36b2e4c04d691ef897418122",
 	baseUrl: "https://api.openweathermap.org/data/2.5"
 };
 
